@@ -1,0 +1,28 @@
+<div class="container">
+	<h2>Meet the Team</h2>
+	<div id="owl1" class="owl-carousel owl-theme">
+		{{#each team}}
+			{{#if img}}
+			<div class="card item" style="width: 18rem;">
+				<img class="card-img-top" src="{{img}}" alt="{{name}} profile picture">
+				<div class="card-body">
+					<h5 class="card-title">{{name}}</h5>
+					<p class="card-text">{{position}}</p>
+					<div class="card-social">
+						{{#if linkedIn_url}}
+						<a href="{{linkedIn_url}}"><i class="fab fa-linkedin"></i></a>
+						{{/if}}
+						{{#if github_url}}
+						<a href="#"><i class="fab fa-github"></i></a>
+						{{/if}}
+						{{#if twitter_url}}
+						<a href="#"><i class="fab fa-twitter-square"></i></a>
+						{{/if}}
+					</div>
+				</div>
+			</div>
+			{{/if}}
+		{{/each}}
+	</div>
+</div>
+

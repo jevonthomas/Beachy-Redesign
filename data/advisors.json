@@ -1,0 +1,24 @@
+{
+	"advisors": [
+		{
+			"name": "Thomas Sparico",
+			"img": "images/headshots/thomas.jpg",
+			"position": "Founder & CEO | Brand New Matter Founding Team | Priceline.com"
+		},
+		{
+			"name": "Mike Stange",
+			"img": "images/headshots/mike.jpg",
+			"position": "CEO | Resort Collection VP Intrawest"
+		},
+		{
+			"name": "Michoel Ogince",
+			"img": "images/headshots/michoel.png",
+			"position": "Partner | Windforce Ventures Founder in Residence | 30 Weeks"
+		},
+		{
+			"name": "Neill Jobe",
+			"img": null,
+			"position": null
+		}
+	]
+}

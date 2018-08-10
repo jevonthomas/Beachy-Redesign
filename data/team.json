@@ -1,0 +1,112 @@
+{
+	"team": [
+		{
+			"name": "Matt Houston",
+			"twitter_url": "https://twitter.com/beachyappmatt",
+			"linkedIn_url": "https://www.linkedin.com/in/beachyappmatt/",
+			"github_url": null,
+			"location": "Nashville, TN",
+			"img": "images/headshots/matt.jpg",
+			"position": "CEO & Co-founder"
+		},
+		{
+			"name": "Josh Aronson",
+			"twitter_url": null,
+			"linkedIn_url": null,
+			"github_url": null,
+			"location": "Nashville, TN",
+			"img": "images/headshots/josh.jpg",
+			"position": "CTO & Co-founder"
+		},
+		{
+			"name": "David Strange",
+			"twitter_url": null,
+			"linkedIn_url": null,
+			"github_url": null,
+			"location": "Nashville, TN",
+			"img": "images/headshots/david.jpg",
+			"position": "COO & Co-founder"
+		},
+		{
+			"name": "Tanner Sheehan",
+			"twitter_url": null,
+			"linkedIn_url": null,
+			"github_url": null,
+			"location": "Nashville, TN",
+			"img": "images/headshots/tanner.jpg",
+			"position": "VP of Operations"
+		},
+		{
+			"name": "Sean Hill",
+			"twitter_url": null,
+			"linkedIn_url": null,
+			"github_url": null,
+			"location": "Nashville, TN",
+			"img": null,
+			"position": "VP of Product Development"
+		},
+		{
+			"name": "Erin Page",
+			"twitter_url": null,
+			"linkedIn_url": "https://www.linkedin.com/in/erinpagemd/",
+			"github_url": "https://github.com/erinpagemd",
+			"location": "Nashville, TN",
+			"img": "images/headshots/erin.jpg",
+			"position": "Senior Developer"
+		},
+		{
+			"name": "Jon Roberts",
+			"twitter_url": null,
+			"linkedIn_url": "https://www.linkedin.com/in/jon-roberts/",
+			"github_url": "https://github.com/thejonroberts",
+			"location": "Nashville, TN",
+			"img": "images/headshots/jon.jpg",
+			"position": "Junior Developer"
+		},
+		{
+			"name": "Piotr Ilski",
+			"twitter_url": null,
+			"linkedIn_url": null,
+			"github_url": null,
+			"location": "Nashville, TN",
+			"img": null,
+			"position": "Senior Mobile Developer"
+		},
+		{
+			"name": "Sam Baker",
+			"twitter_url": null,
+			"linkedIn_url": "https://www.linkedin.com/in/sambdev/",
+			"github_url": "https://github.com/SamBDev",
+			"location": "Nashville, TN",
+			"img": "images/headshots/sam.jpg",
+			"position": "Quality Assurance"
+		},
+		{
+			"name": "Alex Blackwell",
+			"twitter_url": null,
+			"linkedIn_url": null,
+			"github_url": null,
+			"location": "Nashville, TN",
+			"img": null,
+			"position": "Intern"
+		},
+		{
+			"name": "Erin Hatch",
+			"twitter_url": null,
+			"linkedIn_url": null,
+			"github_url": null,
+			"location": "Nashville, TN",
+			"img": null,
+			"position": "Intern"
+		},
+		{
+			"name": "Wiggles",
+			"twitter_url": null,
+			"linkedIn_url": null,
+			"github_url": null,
+			"location": "Nashville, TN",
+			"img": "images/headshots/wiggles.jpg",
+			"position": "VP of Happiness"
+		}
+	]
+}

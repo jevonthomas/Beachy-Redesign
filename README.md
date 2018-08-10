@@ -20,4 +20,4 @@ Finally open another CLI, navigate to the main folder and run:
 
 ```bash
 http-server
-```# Beachy-Redesign
+```

@@ -1,0 +1,446 @@
+:root {
+  --primary-color: #004160;
+  --secondary-color: #FCA29E; 
+  --tertiary-color: #E2E2E2;
+  --fourth-color: #FAF2DF;
+  --fifth-color: #553E15;
+  --header-font: 'Contrail One', 'Roboto', sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Roboto Slab', serif;
+}
+
+a, p, div, span {
+  font-family: var(--main-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--header-font);
+  text-transform: uppercase;
+}
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  background-color: var(--primary-color);
+}
+
+/**************************************
+Header  
+**************************************/
+header {
+  height: 100vh;
+  width: 100%;
+  max-height: 900px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media a {
+  color: white;
+  padding: 5px 15px;
+  will-change: transform;
+  -webkit-transition: .5s; /* For Safari 3.1 to 6.0 */
+  transition: .5s;
+  -webkit-transition-timing-function: cubic-bezier(.24,-0.01,0,1.69);
+  transition-timing-function: cubic-bezier(.24,-0.01,0,1.69);
+}
+
+.social-media a:hover {
+  transform: scale(2);
+}
+
+.nav-item {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  font-weight: 600; 
+}
+
+.hero-image {
+  background-image: url("../images/hero-image.png");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.water-divider {
+  width: 100%;
+  height: 13%;
+  background-image: url('../images/water-divider2.png');
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.divider-layout {
+  flex: 1 1 auto;
+  align-items: flex-end;
+}
+
+.sand-divider {
+  width: 100%;
+  height: 13%;
+  background-image: url('../images/sand-divider1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.navbar-toggler .fas {
+  color: var(--primary-color);
+}
+
+header h1 {
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-size: 2.8em;
+  text-shadow: 0px 3px 13px rgba(0, 0, 0, 0.88);
+}
+
+header p {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-shadow: 0px 3px 13px rgba(0, 0, 0, 0.88);
+}
+
+.youtube {
+  margin: 0 auto;
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+  header h1 {
+    font-size: 3.5rem;
+  }
+  header p {
+    font-size: 1em;
+  }
+  .youtube {
+    display: none;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+} 
+
+/**************************************
+Services 
+**************************************/
+.services-wrapper {
+  width: 100%;
+  background-color: var(--fourth-color);
+  background-image: url("../images/beachy-logo-brown.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50%;
+  padding-bottom: 100px;
+}
+
+.services-wrapper h2, .services-wrapper p {
+  color: var(--fifth-color);
+}
+
+.services-wrapper h2 {
+  padding: 30px 0;
+}
+
+.services-wrapper img {
+  height: auto;
+  width: 100%;
+}
+
+.services-wrapper .container {
+  max-width: 1024px;
+  margin: "0 auto";
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .services-wrapper {
+    width: 100%;
+    background-color: var(--fourth-color);
+    background-image: none;
+  }
+}
+
+/**************************************
+Technology 
+**************************************/
+.tech-wrapper {
+  width: 100%;
+  background-color: white;
+  background-image: url("../images/erased_sand_divider1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top;
+  padding-bottom: 100px;
+}
+
+.tech-wrapper h2, .tech-wrapper p {
+  color: var(--primary-color);
+}
+
+.tech-wrapper h2 {
+  text-transform: uppercase;
+  padding: 30px 0;
+}
+
+.tech-wrapper img {
+  height: auto;
+  width: 100%;
+}
+
+.tech-wrapper .container {
+  max-width: 1024px;
+  margin: "0 auto";
+  padding-top: 100px;
+}
+
+/**************************************
+Features
+**************************************/
+.features {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-height: 720px;
+}
+
+.feature-divider {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  flex: 1 1 auto;
+  background-image: url('../images/mask3-white1.png');
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.feature-divider-2 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  flex: 1 1 auto;
+  background-image: url('../images/mask3-white.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  /* transform:scaleY(-1); */
+}
+
+.feature-map {
+  width: 100%;
+  flex: 1 4 auto;
+}
+
+.feature-map h2 {
+  color: white;
+  padding-bottom: 50px;
+}
+
+.feature-background {
+  background-image: url('../images/tropical-beach-2.jpg');
+  background-color: black;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.mgmt-image {
+  width: 100%;
+}
+.content h3, .content p {
+  color: white;
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 768px) {
+  .features .mt-5 {
+    height: 125px;
+  }
+}
+
+/**************************************
+Team
+**************************************/
+.team {
+  background-color: white;
+  padding-bottom: 50px;
+} 
+
+.card-title {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.card-text {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.card-social {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.card-social .fab {
+  color: var(--primary-color);
+  font-size: 2em;
+}
+
+.owl-carousel .card-img-top {
+  -webkit-filter: grayscale(95%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(95%);
+  width: 100%;
+  height: 315px;
+  object-fit: cover;
+}
+
+.owl-carousel .center .card-img-top {
+  will-change: filter;
+  -webkit-transition: .5s; 
+  transition: .5s;
+  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0%);
+}
+
+.team .container h2 {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.advisors {
+  width: 50%;
+}
+
+.advisors .card-img-top {
+  border-radius: 50%;
+}
+
+.team .card-social a {
+  padding: 0 10px;
+}
+
+/**************************************
+Featured in
+**************************************/
+.featured {
+  background-color: #E2E2E2;
+}
+
+.featured img {
+  width: 100%;
+  padding: 20px;
+}
+
+.featured .container {
+  padding-top: 40px;
+}
+
+.featured .water-divider {
+  height: 13vh;
+}
+
+.featured h2 {
+  color: var(--primary-color);
+}
+
+/**************************************
+Footer
+**************************************/
+footer .card {
+  border: none;
+}
+
+footer .card-body {
+  background-color: var(--primary-color);
+}
+
+footer .card-body * {
+  color: white;
+}
+
+footer .card-footer {
+  background-color: var(--secondary-color);
+}
+
+footer .card-footer p, footer .card-footer a {
+  color: white;
+  margin: 0;
+}
+
+footer .fab {
+  color: white;
+  font-size: 2.5em;
+}
+
+footer h5 {
+  font-size: 2.5em;
+}
+
+footer iframe {
+  width: 100%;
+  height: 25vw;
+}
+
+/**************************************
+Privacy Policy
+**************************************/
+.privacy {
+  background-color: white;
+}
+
+.privacy h1, .privacy p {
+  color: var(--primary-color);
+}
+
+.privacy h1 {
+  margin: 0;
+}
+
+.privacy-content {
+  padding: 50px;
+}
+
+/**************************************
+Terms of Service
+**************************************/
+.service {
+  background-color: white;
+}
+
+.service h1, .service p {
+  color: var(--primary-color);
+}
+
+.service h1 {
+  margin: 0;
+}
+
+.service-content {
+  padding: 50px;
+}

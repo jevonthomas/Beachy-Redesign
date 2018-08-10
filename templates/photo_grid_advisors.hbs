@@ -1,0 +1,18 @@
+<div class="container advisors">
+	<h2>Advisors</h2>
+	<div id="owl2" class="owl-carousel owl-theme">
+		{{#each advisors}}
+			{{#if img}}
+			<div class="card item" style="width: 18rem;">
+				<img class="card-img-top" src="{{img}}" alt="{{name}} profile picture">
+				<div class="card-body">
+					<h5 class="card-title">{{name}}</h5>
+					{{#if position}}
+					<p class="card-text">{{position}}</p>
+					{{/if}}
+				</div>
+			</div>
+			{{/if}}
+		{{/each}}
+	</div>
+</div>
